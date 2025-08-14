@@ -7,7 +7,7 @@
 'use strict';
 
 function makeArray(firstArray, secondArray, maxLength) {
-    commonArray = firstArray.concat(secondArray);
+    let commonArray = firstArray.concat(secondArray);
     if (commonArray.length > maxLength) {
         return commonArray.slice(0, maxLength);
     } else {return commonArray}
